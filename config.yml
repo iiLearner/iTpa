@@ -1,0 +1,28 @@
+#messages sent when request received/sent (tpa)
+requestReceived_1: "&b&liTpa&f&l» &aTeleport request from &6/user/ &areceived." 
+requestReceived_2: "&aType &b&l/tpaccept /user/ &ato accept or &c&l/tpdeny /user/ &ato deny."
+
+#messages sent when request received/sent (tphere)
+requestReceived_3: "&b&liTpa&f&l» &6/user/ &ahas requested you to teleport to them." 
+requestReceived_4: "&aType &b&l/tpaccept /user/ &ato accept or &c&l/tpdeny /user/ &ato deny."
+
+#message sent when sending a request
+requestSent: "&b&liTpa&f&l» &aTeleport request successfully sent to &6/target/"
+
+#messages sent when request accepted or denied
+tpaRequestAccepted: "&b&liTpa&f&l» &6/user/ &ahas been teleported to you!"
+tphereRequestAccepted: "&b&liTpa&f&l» &aYou have been teleported to &6/user/!"
+
+
+RequestAccepted: "&b&liTpa&f&l» &6/target/ &aaccepted the teleport!"
+NoRequestToAccept: "&b&liTpa&f&l» &7No request to accept!"
+RequestDeniedTeleport: "&b&liTpa&f&l» &6/target/ &7has denied the teleport "
+RequestDenied: "&b&liTpa&f&l» &7You denied the teleport"
+NoRequestToDeny: "&b&liTpa&f&l» &7No request to deny!"
+
+
+#Errors handling
+PlayerInAnotherWorldError: "&b&liTpa&f&l» &7You can't teleport to a player into another world!"
+NoPlayerSpecified: "&b&liTpa&f&l» &7Please specify a player!"
+PlayerDoesNotExistError: "&b&liTpa&f&l» &7That player doesn't exist!"
+ConsoleForbidden: "&b&liTpa&f&l» &cYou cannot use this command from the console!"

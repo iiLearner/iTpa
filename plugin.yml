@@ -1,0 +1,40 @@
+name: iTpa
+version: 1.0
+main: iTpa.iTpa
+author: iLearner
+description: iTpa teleport commands
+
+commands: 
+    tpa:
+        usage: /<command> <Player>
+        description: Send a tpa request
+        permission: itpa.tpa
+        
+    tpaccept: 
+        usage: /<command>
+        description: Accept a tpa request
+        permission: itpa.accept     
+        
+    tpdeny: 
+        usage: /<command>
+        description: Decline a tpa request
+        permission:  itpa.deny 
+    
+    tphere:
+        usage: /<command>
+        description: teleport a player to you
+        permission:  itpa.tphere
+       
+        
+permissions:
+    itpa.tpa:
+      default: true
+      
+    itpa.accept:
+      default: true
+      
+    itpa.deny: 
+      default: true
+    
+    itpa.tphere: 
+      default: true    
